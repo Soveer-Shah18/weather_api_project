@@ -8,7 +8,7 @@ app.use(cors({
     origin: ["https://weatherapi360.netlify.app/",
         "http://localhost:3000"
     ],
-    
+    methods: ["GET"]
 }));
 app.use(express.json());
 
