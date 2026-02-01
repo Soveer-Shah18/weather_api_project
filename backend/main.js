@@ -5,8 +5,10 @@ require("dotenv").config();
 const weatherRoutes = require("./routes/weather");
 
 app.use(cors({
-    origin: ["http://localhost:3000",
-    "https://weatherapi360.netlify.app/"]
+    origin: ["https://weatherapi360.netlify.app/",
+        "http://localhost:3000"
+    ],
+    
 }));
 app.use(express.json());
 
