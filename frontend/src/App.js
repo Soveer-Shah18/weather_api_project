@@ -1,4 +1,4 @@
-import {use, useState} from "react";
+import {useState} from "react";
 import {getWeather} from "./services/weatherApi";
 import WeatherCard from "./components/WeatherCard";
 import "./App.css"
